@@ -1,0 +1,60 @@
+# Node / Frontend
+node_modules/
+.expo/
+dist/
+web-build/
+*.tsbuildinfo
+.metro-health-check*
+
+# Python / Backend
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!**/.env.example
+.env.local
+.env.*.local
+*.env
+*.pem
+*.key
+*.crt
+*.cert
+
+# Local Databases
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sql
+*.sql.gz
+*.dump
+*.bak
+*.backup
+*.dbbackup
+
+# Contains realistic employee records; keep this local repopulation utility private.
+backend/repopulate_indian_employees.py
+
+# Logs, temporary files, and compressed backups
+*.log
+logs/
+*.tmp
+*.temp
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.gz
+
+# Operating System
+.DS_Store
+Thumbs.db
